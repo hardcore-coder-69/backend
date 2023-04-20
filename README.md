@@ -1,7 +1,7 @@
 # backend
-LMS Backend
+# Library Management System Backend
 
-Steps for setup:
+# Steps for setup:
 
 Step 1: npm install
 
