@@ -1,0 +1,22 @@
+{
+  "name": "mysql_and_node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.22",
+    "uuidv4": "^6.2.13",
+    "bcryptjs": "^2.4.3",
+    "config": "^3.3.8",
+    "express-validator": "^6.14.2",
+    "jsonwebtoken": "^8.5.1"
+  }
+}
