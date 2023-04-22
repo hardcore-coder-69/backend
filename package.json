@@ -1,10 +1,12 @@
 {
-  "name": "mysql_and_node",
+  "name": "lms-backend",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon app.js"
+    "start": "nodemon app.js",
+    "check-db-connection": "node database/checkConnection.js",
+    "database-migration": "node database/migration.js"
   },
   "keywords": [],
   "author": "",
