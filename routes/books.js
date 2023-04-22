@@ -220,7 +220,7 @@ router.post('/search', auth,
 
         try {
             const SearchBooks = `SELECT * FROM books
-                                WHERE user_id="${req.user.id}" AND (title LIKE "%${searchValue}%" OR author LIKE "%${searchValue}%)"
+                                WHERE user_id="${req.user.id}" AND title LIKE "%${searchValue}%" OR author LIKE "%${searchValue}%"
                                 ORDER BY updated_at DESC`
 
             connection.query(SearchBooks, (err, data) => {
